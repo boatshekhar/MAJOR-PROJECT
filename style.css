@@ -109,9 +109,9 @@ a:after {
   display: flex;
   font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
   font-size: 1.15em;
-  font-weight: 700;
+  font-weight: 600;
   justify-content: center;
-  line-height: 33.4929px;
+  line-height: 1.4rem;
   padding: .8em 1em;
   text-align: center;
   text-decoration: none;
@@ -138,8 +138,10 @@ a:after {
 .button-44:hover {
   border-bottom-style: none;
   border-color: #dadada;
+  background-color: green;
 }
 .button-40 {
+   margin-right: 5%;
   background-color: #111827;
   border: 1px solid transparent;
   border-radius: .75rem;
@@ -184,6 +186,6 @@ a:after {
    display: flex;
    justify-content: center;
    align-items: center;
-   gap: 5%;
+   gap: 2%;
 }
 
