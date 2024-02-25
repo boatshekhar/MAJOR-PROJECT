@@ -14,10 +14,10 @@
     <header>
         <div class="navbar">
             <div class="logo"><video src="./Logo-2-[remix] (5).mp4" autoplay loop muted></video></div>
-            <div class="home"><a href="">Home</a></div>
-            <div class="home"><a href="">Online OCR</a></div>
-            <div class="home"><a href="">Help & Support</a></div>
-            <div class="home"><a href="">About Us</a></div>
+            <div class="home"><a class="nav-link" href="">Home</a></div>
+            <div class="home"><a class="nav-link" href="">Online OCR</a></div>
+            <div class="home"><a class="nav-link" href="">Help & Support</a></div>
+            <div class="home"><a class="nav-link" href="">About Us</a></div>
        
         </div> 
     </header>
@@ -32,18 +32,46 @@
         </div>
     </div>
     <div class="main">
-        <h1>Optical Character Recognition (OCR)</h1>
-        <h2>Convert illegible images and PDF to legible text</h2>
-        <form class="form" action="">
-            <label for="">Upload image or PDF file</label>
-            <input type="file">
-
-        </form>
-        <div class="button-container">
-        <button class="button-44">Start OCR</button>
-        <button class="button-40">Clear</button>
+        <div class="bgc">
+        <h1>Optical Character Recognition <span>(OCR)</span></h1>
+        <p>Convert illegible images and PDF to legible text</p>
+        <div class="container">
+            <div class="primary-button">
+               
+                <img src="./cloud-computing.png" alt="">
+                Upload file
+            </div>
+            <div class="converted-file">
+                <p>Text from your document will apear here.</p>
+            </div>
+            <div class="button-container">
+                <button class="btn">Start OCR</button>
+                <button class="btn btn2">Clear</button>
+                </div>
         </div>
+       
+       
+        <div class="privacy">
+            <img src="./privacy.svg" alt="">
+            <p>Data security comes first – We'll never sell or share your data. For more details, here’s our <a id="privacy-pol" href="">Privacy Policy</a></p>
+        </div>
+        <div class="step">
+            <div class="firststep"><img src="./first.svg" alt="">
+                <p>Upload Images or PDF Files</p>
+                <span>Select files from your computer, or just drag and drop into the upload box.</span>
+            </div>
+            <div class="firststep"><img src="./second.svg" alt="">
+                <p>Convert to text</p>
+                <span>Our online OCR tool automatically recognizes content in your files and converts it into editable text.</span>
+            </div>
+            <div class="firststep"><img src="./third.svg" alt="">
+                <p>Download text file</p>
+                <span>Download your converted text file within seconds..</span>
+            </div>
+        </div>
+        
     </div>
-   
+</div>
+   <script src="./app.js"></script>
 </body>
 </html>
