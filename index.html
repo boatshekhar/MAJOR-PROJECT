@@ -18,6 +18,9 @@
             <div class="home"><a class="nav-link" href="">Online OCR</a></div>
             <div class="home"><a class="nav-link" href="">Help & Support</a></div>
             <div class="home"><a class="nav-link" href="">About Us</a></div>
+            <div class="lang">
+                <a class="nav-link" href="/bangla.html">bangla</a>
+            </div>
        
         </div> 
     </header>
@@ -33,7 +36,7 @@
     </div>
     <div class="main">
         <div class="bgc">
-        <h1>Optical Character Recognition <span>(OCR)</span></h1>
+        <h1 id="element"></h1>
         <p>Convert illegible images and PDF to legible text</p>
         <div class="container">
             <div class="primary-button">
@@ -53,7 +56,7 @@
        
         <div class="privacy">
             <img src="./privacy.svg" alt="">
-            <p>Data security comes first – We'll never sell or share your data. For more details, here’s our <a id="privacy-pol" href="">Privacy Policy</a></p>
+            <p>Data security comes first – We'll never sell or share your data. For more details, here’s our <a id="privacy-pol" href="/policy.html">Privacy Policy</a></p>
         </div>
         <div class="step">
             <div class="firststep"><img src="./first.svg" alt="">
@@ -69,9 +72,35 @@
                 <span>Download your converted text file within seconds..</span>
             </div>
         </div>
+        <div class="uses">
+            <h2>Illegible to legible text converter - what is this? </h2>
+            <div class="paragraphs">
+            <p>
+                Online OCR tool is the Image to text      conveter based on optical character recognition technology, Use our service to extract text and characters from the PDF and Images that cannot be easily readable.
+            </p>
+            <p>
+                If you have  parchment or ancient document and having dificulty in deciphering the text due to its age, degradation or antiquated writing style, our service is the best solution.
+            </p>
+            <p>
+                you don't need to waste time - just upload the file and convert image to redable text.
+            </p>
+            <p>
+                Using advanced image pre-processing algorithms and OCR technology, our service scans text from your images and extracts it to any editable format.
+            </p>
+        </div>
+        </div>
         
     </div>
 </div>
    <script src="./app.js"></script>
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+   <script>
+    var typed = new Typed('#element', {
+      strings: ['Optical Character Recognition(OCR)'],
+      typeSpeed: 60,
+    
+    });
+  </script>
+  
 </body>
 </html>
